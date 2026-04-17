@@ -1,0 +1,1 @@
+Emoji Word Detector is a real-time web application that listens to spoken Turkish and English words and changes the displayed emoji based on the detected keyword. It is built with HTML, CSS, and JavaScript using the browser's Speech Recognition API.
