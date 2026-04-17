@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emoji Word Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Emoji Word Detector</h1>
+    <p class="subtitle">Say a word in Turkish or English. The emoji changes instantly.</p>
+
+    <div class="emoji-box" id="emojiBox">
+      <div class="emoji" id="emoji">😐</div>
+    </div>
+
+    <div class="info-box">
+      <p><strong>Detected Word:</strong> <span id="detectedWord">-</span></p>
+      <p><strong>Status:</strong> <span id="moodText">Waiting...</span></p>
+      <p><strong>Language Mode:</strong> <span id="languageText">Turkish + English</span></p>
+    </div>
+
+    <div class="buttons">
+      <button id="startBtn">Start Listening</button>
+      <button id="stopBtn">Stop</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div class="speech-box">
+      <p class="speech-title">Live Speech</p>
+      <div class="speech-output" id="speechOutput">No speech detected yet.</div>
+    </div>
+
+    <p class="status" id="status">Microphone is off.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
